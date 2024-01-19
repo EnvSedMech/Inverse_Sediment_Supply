@@ -1,7 +1,7 @@
 # Inverse_Sediment_Supply: 
 
 # Overview
-This repository contains the code and data for the project titled "Development and Validation of an Integrated Modeling Approach to Reconstruct the Propagation of Fluvial Sediment Pulses After Dam Removals." The objective was to optimize a one-dimensional hydro-morphodynamic numerical model using Landsat-derived suspended sediment concentration (SSC) data and MCMC. The methodology was validated using the Elwha River Dam removals. (See "Description_Part3A.docx" for more details)
+This repository contains the code and data for the project titled "Development and Validation of an Integrated Modeling Approach to Reconstruct the Propagation of Fluvial Sediment Pulses After Dam Removals." The objective was to optimize a one-dimensional hydro-morphodynamic numerical model using Landsat-derived suspended sediment concentration (SSC) data and MCMC. The methodology was then validated using the Elwha River Dam removals. (See "Description_Part3A.docx" for more details)
 
 ## Model Input:
 1) Discharge (Q) extracted from "Q_h_list.rds"
