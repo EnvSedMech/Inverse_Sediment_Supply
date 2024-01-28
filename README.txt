@@ -1,7 +1,7 @@
 # Inverse_Sediment_Supply: 
 
 # Overview
-This repository contains the code and data for the project titled "Development and Validation of an Integrated Modeling Approach to Reconstruct the Propagation of Fluvial Sediment Pulses After Dam Removals." The objective was to optimize a one-dimensional hydro-morphodynamic numerical model using Landsat-derived suspended sediment concentration (SSC) data and MCMC. The methodology was validated using the Elwha River Dam removals. (See "Description_Part3A.docx" for more details)
+This repository contains the code and data for the project titled "Development and Validation of an Integrated Modeling Approach to Reconstruct the Propagation of Fluvial Sediment Pulses After Dam Removals." The objective was to optimize a one-dimensional hydro-morphodynamic numerical model using Landsat-derived Suspended Sediment Concentration (SSC) data and MCMC. The methodology was validated using the Elwha River Dam removals. (See "Description_Part3A.docx" for more details)
 
 ## Model Input:
 1) Discharge (Q) extracted from "Q_h_list.rds"
@@ -22,11 +22,13 @@ This repository contains the code and data for the project titled "Development a
 ## Channel geometry:
 1) Extracted using publicly available NAIP imagery.
 2) Simplified using changepoint analysis.
-3) Calibrated for Water Surface Elevation (m) and SSC (m³/m³).
-4) Validated using remote sensing-derived Erosion and Deposition amounts (m).
+
+## Model Calibration/Validation
+1) Calibrated for Water Surface Elevation (m) and SSC (m³/m³).
+2) Validated using remote sensing-derived Erosion and Deposition amounts (m).
 
 ## Inverse Modeling Framework:
-1) Relies on the conceptual framework validated for the Elwha Dam removals by Sharma, (2023) (also shown in the "Description_Part3A.docx" file)
+1) Relies on the conceptual framework validated for the Elwha Dam removals by Sharma (2023) (also shown in the "Description_Part3A.docx" file)
 2) Well-commented code available in "Demo_w_desc.R."
 3) Parameter to be optimized: Upstream sediment supply concentration (Cs in m³/m³).
 4) Objective function: RMSE.
@@ -34,7 +36,7 @@ This repository contains the code and data for the project titled "Development a
 6) Results saved at each time step.
 7) Multiple scripts are run to spatiotemporally reconstruct sediment pulses using remote sensing, numerical modeling, and machine learning. "Parallel.R" demonstrates a simple method for running multiple scripts in parallel.
 
-## Model Validation: 
+## Methodology Validation: 
 1) Spatiotemporal sediment pulse reconstruction for the Elwha River Dam removals
 2) "Elwha_Landsat_7_SSC.zip" and "Elwha_Landsat_8_SSC.zip" contain R scripts utilized for the reconstruction 
 
