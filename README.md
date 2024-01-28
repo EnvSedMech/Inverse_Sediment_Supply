@@ -36,7 +36,7 @@ This repository contains the code and data for the project titled "Development a
 6) Results saved at each time step.
 7) Multiple scripts are run to spatiotemporally reconstruct sediment pulses using remote sensing, numerical modeling, and machine learning. "Parallel.R" demonstrates a simple method for running multiple scripts in parallel.
 
-## Model Validation: 
+## Methodology Validation: 
 1) Spatiotemporal sediment pulse reconstruction for the Elwha River Dam removals
 2) "Elwha_Landsat_7_SSC.zip" and "Elwha_Landsat_8_SSC.zip" contain R scripts utilized for the reconstruction 
 
