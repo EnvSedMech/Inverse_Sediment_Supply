@@ -1,5 +1,9 @@
 options(digits = 10)
 
+########################################################################################
+## Set working directory appropriately prior to use (Applies to all the shared files) ##
+########################################################################################
+
 ## Model input and Calibration data 
 SSC_list2 <- readRDS("SSC_list.rds")
 Q_h <- readRDS("Q_h_list.rds")
