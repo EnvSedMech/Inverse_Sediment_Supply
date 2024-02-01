@@ -13,7 +13,7 @@ This repository contains the code and data for the project titled "Development a
 3) Files "SSC_list.rds" and "dgo_list.rds" contain spatially explicit SSC values matched with the correct Finite volume location for the Numerical model
 
 ## Numerical Model:
-1) Well-commented version shared in "Demo_w_desc.R."
+1) Well-commented version shared in "Demo_w_desc.R." (Located in "Demo" and "Demo.zip")
 2) Model Formulation:
 	a. Governing equations: 1D unsteady St. Venant shallow water equations and Exner equations for conservation of sediment mass
 	b. Ability to simulate non-uniform bed load and suspended sediment transport rates
